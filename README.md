@@ -9,6 +9,5 @@ Make sure you've [installed Rust first](https://www.rustup.rs).
 ```bash
 git clone http://github.com/davidbarsky/vis-diff
 cd vis-diff
-cargo install
-vis-diff file_one file_two
+cargo run --release file_one file_two
 ```
